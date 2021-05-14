@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominion", "Dominion\Dominion.csproj", "{03B3E023-FACB-46D2-B3A0-29B0BB7C713B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03B3E023-FACB-46D2-B3A0-29B0BB7C713B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B3E023-FACB-46D2-B3A0-29B0BB7C713B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B3E023-FACB-46D2-B3A0-29B0BB7C713B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B3E023-FACB-46D2-B3A0-29B0BB7C713B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
