@@ -9,7 +9,7 @@ namespace Dominion
 {
     class Dominion
     {
-        public List<Card> CardsToUse(List<int> cardNumbers, List<CardType> typesToExclude)
+        public List<Card> CardsToUse(List<int> cardNumbers)
         {
             var kingdom = new List<Card>();
             foreach (var number in cardNumbers)
@@ -17,13 +17,50 @@ namespace Dominion
                 kingdom.Add(AllCards.allCards[number]);
             }
 
-            if (typesToExclude != null)
-            {
-                kingdom.RemoveAll(x => x.Type.Contains(typesToExclude[0]));
-            }
-
             return kingdom;
         }
+
+        public List<int> CardRandomizer(int quantity, List<CardType> typesToExclude, List<CardType> typesToInclude)
+        {
+            var random = new Random();
+            var cardIds = new List<int>();
+            var containsType = false;
+            while (cardIds.Count != quantity)
+            {
+                var idToAdd = 0;
+                idToAdd += random.Next(1, 5);
+                if (!cardIds.Contains(idToAdd))
+                {
+                    if (typesToExclude != null)
+                    {
+                        if (ChooseCardsByType(typesToExclude, idToAdd)) continue;
+                    }
+
+                    if (typesToInclude != null)
+                    {
+                        if (containsType == false)
+                        {
+                            if (ChooseCardsByType(typesToInclude, idToAdd))
+                            {
+                                containsType = true;
+                            }
+                            else
+                            {
+                                continue;
+                            }
+                        }
+                    }
+
+                    cardIds.Add(idToAdd);
+                }
+            }
+
+            return cardIds;
+        }
+
+        private static bool ChooseCardsByType(List<CardType> types, int idToAdd)
+        {
+            return types.Any(param => AllCards.allCards[idToAdd].Type.Contains(param));
+        }
     }
-    
 }
