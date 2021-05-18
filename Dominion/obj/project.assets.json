@@ -3726,23 +3726,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\The Mob\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Tommy Platero\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\The Mob\\RiderProjects\\Dominion\\Dominion\\Dominion.csproj",
+      "projectUniqueName": "C:\\Users\\Tommy Platero\\Dominion\\Dominion\\Dominion.csproj",
       "projectName": "Dominion",
-      "projectPath": "C:\\Users\\The Mob\\RiderProjects\\Dominion\\Dominion\\Dominion.csproj",
-      "packagesPath": "C:\\Users\\The Mob\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\The Mob\\RiderProjects\\Dominion\\Dominion\\obj\\",
+      "projectPath": "C:\\Users\\Tommy Platero\\Dominion\\Dominion\\Dominion.csproj",
+      "packagesPath": "C:\\Users\\Tommy Platero\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tommy Platero\\Dominion\\Dominion\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\The Mob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tommy Platero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3750,8 +3746,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/emmersionlearning/_packaging/EmmersionLearning/nuget/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -3793,7 +3788,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

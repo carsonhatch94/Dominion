@@ -1,1 +1,57 @@
-﻿"restore":{"projectUniqueName":"C:\\Users\\The Mob\\RiderProjects\\Dominion\\Dominion\\Dominion.csproj","projectName":"Dominion","projectPath":"C:\\Users\\The Mob\\RiderProjects\\Dominion\\Dominion\\Dominion.csproj","outputPath":"C:\\Users\\The Mob\\RiderProjects\\Dominion\\Dominion\\obj\\","projectStyle":"PackageReference","fallbackFolders":["C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"],"originalTargetFrameworks":["net5.0"],"sources":{"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\":{},"https://api.nuget.org/v3/index.json":{},"https://pkgs.dev.azure.com/emmersionlearning/_packaging/EmmersionLearning/nuget/v3/index.json":{}},"frameworks":{"net5.0":{"targetAlias":"net5.0","projectReferences":{}}},"warningProperties":{"warnAsError":["NU1605"]}}"frameworks":{"net5.0":{"targetAlias":"net5.0","dependencies":{"Microsoft.NET.Test.Sdk":{"target":"Package","version":"[16.10.0-release-20210422-02, )"},"NUnit":{"target":"Package","version":"[3.13.2, )"}},"imports":["net461","net462","net47","net471","net472","net48"],"assetTargetFallback":true,"warn":true,"frameworkReferences":{"Microsoft.NETCore.App":{"privateAssets":"all"}},"runtimeIdentifierGraphPath":"C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"}}
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Tommy Platero\\Dominion\\Dominion\\Dominion.csproj",
+    "projectName": "Dominion",
+    "projectPath": "C:\\Users\\Tommy Platero\\Dominion\\Dominion\\Dominion.csproj",
+    "outputPath": "C:\\Users\\Tommy Platero\\Dominion\\Dominion\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "net50"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp5.0": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.10.0-release-20210422-02, )"
+        },
+        "NUnit": {
+          "target": "Package",
+          "version": "[3.13.2, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+    }
+  }
+}
